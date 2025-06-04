@@ -26,12 +26,12 @@ SECRET_KEY = "django-insecure-mk%rntcu@fr+8el!1=k4kh!(-fsx8bnnvolp8%8t$m7$sgu+7q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '*',
-    '127.0.0.1',
-    'localhost',
+ALLOWED_HOSTS = ['django-ecommerce-yqec.onrender.com', 'localhost', '127.0.0.1']
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://django-ecommerce-yqec.onrender.com'
 ]
-CSRF_TRUSTED_ORIGINS = [ 'https://django-ecommerce-yqec.onrender.com']
+
 
 
 
